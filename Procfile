@@ -1,1 +1,4 @@
-web: java -cp target/classes:target/dependency/* br.com.elumini.yord.main.Main -Dorg.eclipse.jetty.LEVEL=DEBUG
+web: java -Xmx384m -Xss512k -XX:+UseCompressedOops -jar target/*.jar 
+--spring.profiles.active=prod 
+--server.port=$PORT 
+--spring.data.mongodb.uri=$MONGOLAB_URI
