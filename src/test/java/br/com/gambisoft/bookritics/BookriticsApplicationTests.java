@@ -1,4 +1,4 @@
-package br.com.elumini.bookboot;
+package br.com.gambisoft.bookritics;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class BookBootRestApplicationTests {
+public class BookriticsApplicationTests {
 
 	@Test
 	public void contextLoads() {

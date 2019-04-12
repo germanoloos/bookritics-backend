@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.elumini</groupId>
-	<artifactId>book-boot-rest</artifactId>
+	<artifactId>bookritic-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>book-boot-rest</name>
-	<description>Book Boot Rest API</description>
+	<description>Bookritics Rest API</description>
 
 	<properties>
 		<java.version>1.8</java.version>
